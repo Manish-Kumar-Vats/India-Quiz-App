@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AnswerActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3FECDEFF"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="Answers of the quizs are:-"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="24sp"
+            android:layout_marginBottom="32dp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#DCD5DD" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#DCD5DD" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="2dp"
+            android:background="#DCD5DD" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1: India is _____ largest country in world by area."
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="7th"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#DCD5DD" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="2: Which thing/things were invented in India"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="All above[Chess, Navigation, Surgery and Sugar]"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#DCD5DD" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="3:   India never invaded any country from last ___ years."
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="100000 years"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#DCD5DD" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="4:   What does mean by VASUDHAIVA KUTUMBAKAM"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="The world is one family"
+            />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#DCD5DD" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="5:   Which is India's largest NGO?"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="Rashtriya Swayamsevak Sangh(RSS)"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#DCD5DD" />
+ ̥
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="6:   What places are in India"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="All of the Above"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#DCD5DD" />
+
+        ̥<Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:textColor="#fff"
+        android:text="Retake Test"
+        android:textAllCaps="false"
+        android:onClick="retest"
+        android:layout_margin="32dp"
+        android:background="#995CF1"
+        />
+
+    </LinearLayout>
+</ScrollView>

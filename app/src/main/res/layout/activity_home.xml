@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3FECDEFF"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="#fff"
+            android:scaleType="centerInside"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="Welcome to the India QuizApp!\nLet's start!!"
+            android:textColor="@color/colorAccent"
+            android:textSize="24sp"
+            android:textStyle="bold" />̥
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#DCD5DD" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="1: India is _____ largest country in world by area."
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/answerFirstQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="answer"
+            android:maxLength="10"
+            android:singleLine="true"
+            android:textColorHint="#888" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#DCD5DD" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="2: Which thing/things were invented in India"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <CheckBox
+                android:id="@+id/firstAnswerSecondQuestion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chess" />
+
+            <CheckBox
+                android:id="@+id/secondAnswerSecondQuestion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Navigation" />
+
+            <CheckBox
+                android:id="@+id/thirdAnswerSecondQuestion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Surgery" />
+
+            <CheckBox
+                android:id="@+id/fourthAnswerSecondQuestion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sugar" />
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#DCD5DD" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="3:   India never invaded any country from last ___ years."
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp" />
+
+        <RadioGroup
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/firstAnswerThirdQuestion"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="10" />
+
+            <RadioButton
+                android:id="@+id/secondAnswerThirdQuestion"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="100" />
+
+            <RadioButton
+                android:id="@+id/thirdAnswerThirdQuestion"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="1000" />
+
+            <RadioButton
+                android:id="@+id/fourthhAnswerThirdQuestion"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="100000" />
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#DCD5DD" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="4:   What does mean by VASUDHAIVA KUTUMBAKAM"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp" />
+
+        <RadioGroup
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/firstAnswerForthQuestion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The world is one family" />
+
+            <RadioButton
+                android:id="@+id/secondAnswerForthQuestion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nation First" />
+
+            <RadioButton
+                android:id="@+id/thirdAnswerForthQuestion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Family is real wealth" />
+
+            <RadioButton
+                android:id="@+id/fourthhAnswerForthQuestion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="All the aboves" />
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#DCD5DD" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="5:   Which is India's largest NGO?"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp" />
+
+        <RadioGroup
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/firstAnswerFifthQuestion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rashtriya Swayamsevak Sangh(RSS)" />
+
+            <RadioButton
+                android:id="@+id/secondAnswerFifthQuestion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Child Rights and You(CRY)" />
+
+            <RadioButton
+                android:id="@+id/thirdAnswerFifthQuestion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Wikimedia Foundation" />
+
+            <RadioButton
+                android:id="@+id/fourthhAnswerFifthQuestion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BRAC" />
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#DCD5DD" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="6:   What places are in India"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp" />
+
+        <RadioGroup
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/firstAnswerSixthQuestion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mountains &amp; Hills  Stations" />
+
+            <RadioButton
+                android:id="@+id/secondAnswerSixthQuestion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Beaches &amp; Forest " />
+
+            <RadioButton
+                android:id="@+id/thirdAnswerSixthQuestion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Desert &amp; Plateaus" />
+
+            <RadioButton
+                android:id="@+id/fourthhAnswerSixthQuestion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="All of the Above" />
+        </RadioGroup>
+        ̥
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#DCD5DD" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginRight="32dp"
+            android:background="@color/colorAccent"
+            android:onClick="submit"
+            android:text="Submit"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="28sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginBottom="32dp"
+            android:gravity="end|top"
+            android:onClick="answers"
+            android:text="Check Answers"
+            android:textColor="#E91E39" />
+    </LinearLayout>
+</ScrollView>
